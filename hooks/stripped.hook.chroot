@@ -45,7 +45,7 @@ wget -nv -O /tmp/AdbeRdr9.5.5-1_i386linux_enu.deb http://ftp.adobe.com/pub/adobe
 echo download chrome
 wget -nv -O /tmp/google-chrome-stable_current_amd64.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 echo download spotify
-wget -nv -O /tmp/spotify-client_amd64.deb http://repository.spotify.com/pool/non-free/s/spotify/spotify-client_0.9.10.17.g4129e1c.78-1_amd64.deb
+wget http://repository.spotify.com/pool/non-free/s/spotify/spotify-client_0.9.11.27.g2b1a638.81-1_amd64.deb
 #echo download google-earth
 #wget -nv -O /tmp/google-earth_i386.deb https://dl.google.com/dl/earth/client/current/google-earth-stable_current_i386.deb
 
