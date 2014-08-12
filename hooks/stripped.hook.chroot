@@ -28,7 +28,7 @@ set -e
 #	fi
 #done
 #do some apt stuff
-apt-get remove --purge --yes rsyslog cron exim4-config avahi-daemon libavahi-core7 libdaemon0 nfs-common libnfsidmap2
+apt-get remove --purge --yes rsyslog exim4-config avahi-daemon libavahi-core7 libdaemon0 nfs-common libnfsidmap2
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 94558F59
 apt-get -ym --no-install-recommends install network-manager-gnome nautilus-data
 apt-get -ym install file-roller
