@@ -36,12 +36,12 @@ apt-get autoremove --yes || true
 dpkg --add-architecture i386
 apt-get update
 #download packages
-echo download skype
-wget -nv -O /tmp/skype.deb http://www.skype.com/go/getskype-linux-deb
-echo download steam
-wget -nv -O /tmp/steam-launcher.deb http://repo.steampowered.com/steam/pool/steam/s/steam/steam-launcher_1.0.0.48_all.deb
-echo download adobe
-wget -nv -O /tmp/AdbeRdr9.5.5-1_i386linux_enu.deb http://ftp.adobe.com/pub/adobe/reader/unix/9.x/9.5.5/enu/AdbeRdr9.5.5-1_i386linux_enu.deb
+#echo download skype
+#wget -nv -O /tmp/skype.deb http://www.skype.com/go/getskype-linux-deb
+#echo download steam
+#wget -nv -O /tmp/steam-launcher.deb http://repo.steampowered.com/steam/pool/steam/s/#steam/steam-launcher_1.0.0.48_all.deb
+#echo download adobe
+#wget -nv -O /tmp/AdbeRdr9.5.5-1_i386linux_enu.deb http://ftp.adobe.com/pub/adobe/reader/unix/9.x/9.5.5/enu/AdbeRdr9.5.5-1_i386linux_enu.deb
 echo download chrome
 wget -nv -O /tmp/google-chrome-stable_current_amd64.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 #echo download spotify
@@ -50,12 +50,12 @@ wget -nv -O /tmp/google-chrome-stable_current_amd64.deb https://dl.google.com/li
 #wget -nv -O /tmp/google-earth_i386.deb https://dl.google.com/dl/earth/client/current/google-earth-stable_current_i386.deb
 
 #install packages
-echo install skype
-gdebi -n -q /tmp/skype.deb
-echo install steam
-sh -c 'echo y | gdebi -n -q /tmp/steam-launcher.deb'
-echo install adobe
-gdebi -n -q /tmp/AdbeRdr9.5.5-1_i386linux_enu.deb
+#echo install skype
+#gdebi -n -q /tmp/skype.deb
+#echo install steam
+#sh -c 'echo y | gdebi -n -q /tmp/steam-launcher.deb'
+#echo install adobe
+#gdebi -n -q /tmp/AdbeRdr9.5.5-1_i386linux_enu.deb
 echo install chrome
 gdebi -n -q /tmp/google-chrome-stable_current_amd64.deb
 #echo install spotify
@@ -64,9 +64,9 @@ gdebi -n -q /tmp/google-chrome-stable_current_amd64.deb
 #gdebi -n -q /tmp/google-earth_i386.deb
 
 #remove deb files
-rm /tmp/skype.deb
-rm /tmp/steam-launcher.deb
-rm /tmp/AdbeRdr9.5.5-1_i386linux_enu.deb
+#rm /tmp/skype.deb
+#rm /tmp/steam-launcher.deb
+#rm /tmp/AdbeRdr9.5.5-1_i386linux_enu.deb
 rm /tmp/google-chrome-stable_current_amd64.deb
 #rm /tmp/spotify-client_amd64.deb
 #rm /tmp/google-earth_i386.deb
