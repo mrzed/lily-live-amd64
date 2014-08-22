@@ -2,9 +2,9 @@
 Architecture: amd64
 Archive-Areas: main contrib non-free
 Distribution: jessie
-Mirror-Bootstrap: http://192.168.2.15/debian/
+Mirror-Bootstrap: http://ftp.us.debian.org/debian/
 
 [FIXME]
 Configuration-Version: 4.0~alpha39
-Name: live-image
+Name: lily-live-xfce4
 Type: iso-hybrid

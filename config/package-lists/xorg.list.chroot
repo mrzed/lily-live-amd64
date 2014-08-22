@@ -1,1 +1,1 @@
-tasksel menu gdebi desktop-base xorg lightdm mate-desktop-common medit xrdp terminator libreoffice pidgin amarok chromium
+tasksel desktop-base sudo lightdm xfce4 libreoffice gdebi pidgin terminator xrdp medit gimp openssh-server ssh remmina amarok
